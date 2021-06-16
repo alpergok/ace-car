@@ -1,0 +1,78 @@
+
+  .login-box{
+    position:relative;
+    margin: 10px auto;
+    width: 35vw;
+    min-height: 300px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+  text-align: center;
+  }
+  
+  .email-login{
+    position:relative;
+    float: left;
+    width: 100%;
+    height:auto;
+    margin-top: 20px;
+    text-align:center;
+  }
+  .u-form-group{
+    width:100%;
+  }
+  .u-form-group input[type="email"],
+  .u-form-group input[type="password"]{
+    text-align: center;
+    width: 80%;
+    height:45px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 10px;
+    color: #333;
+    font-size:0.8rem;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.1s linear;
+    transition:all 0.1s linear;
+  }
+  .email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .password{
+    margin-bottom: 30px;
+  }
+  .u-form-group input:focus{
+    border-color: #054953;
+  }
+  .u-form-group button{
+    width:50%;
+    background-color: #054953;
+    border: none;
+    outline: none;
+    color: #8cc2c4;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 0;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .u-form-group button:hover{
+      background-color: #8cc2c4;
+      color: #054953;
+  }
+  .other-options{
+    width:50%;
+    text-align: center;
+    text-decoration: underline;
+    color: #888;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
