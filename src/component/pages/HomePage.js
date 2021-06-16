@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from '../Nav';
+import Footer from '../Footer';
 import SearchBox from '../SearchBox';
+
 function Home() {
     return (
         <div>
@@ -15,9 +17,10 @@ function Home() {
                     <input className="trip-SearchBox form" type="number" />
                 </div> */}
             </div>
-            <div className="home-mid-container">
+            {/* <div className="home-mid-container">
                 <h1>AceCar ile istediğin yere git. </h1>
-            </div>
+            </div> */}
+            <Footer />
         </div>
     );
 }
