@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../img/Logo_wname_v2.png';
-import { Link, withRouter } from 'react-router-dom';
+import logo from '../../img/Logo_v3.png';
+import { Link } from 'react-router-dom';
 function Nav() {
     return (
         <nav>
@@ -8,16 +8,16 @@ function Nav() {
                 <img className="logo" src={logo} alt="AceCar" />
             </Link>
             <ul className="nav-links">
-                <Link className="link" to="/about">
+                <Link className="link" to="/searchtrip">
                     <li>Yolculuk Ara</li>
                 </Link>
-                <Link className="link" to="/about">
+                <Link className="link" to="/createtrip">
                     <li>İlan Ver</li>
                 </Link>
                 <Link className="link" to="/login">
                     <li>Giriş Yap</li>
                 </Link>
-                <Link className="link" to="/login">
+                <Link className="link" to="/signup">
                     <li>Kaydol</li>
                 </Link>
 

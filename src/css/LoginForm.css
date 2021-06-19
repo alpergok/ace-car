@@ -55,7 +55,7 @@
     background-color: #054953;
     border: none;
     outline: none;
-    color: #8cc2c4;
+    color: #a1dddf;
     font-size: 14px;
     font-weight: normal;
     padding: 14px 0;
@@ -65,14 +65,20 @@
     margin-bottom: 15px;
   }
   .u-form-group button:hover{
-      background-color: #8cc2c4;
+      background-color: #a1dddf;
       color: #054953;
   }
   .other-options{
-    width:50%;
+    width:100%;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     color: #888;
     font-size: 0.8rem;
     margin-top: 5px;
+  }
+  .other-options:hover{
+    color: #054953;
+  }
+  .signup .other-options{
+    margin-top: 10px;
   }

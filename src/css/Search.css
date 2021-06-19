@@ -311,7 +311,7 @@
     -moz-border-radius: 10px;
     border-radius: 10px;
     text-transform: uppercase;
-    color: #8cc2c4;
+    color: #a1dddf;
     font-size: 18px;
     font-weight: 700;
     -webkit-transition: all 0.4s ease;
@@ -328,7 +328,7 @@
   }
   
   .btn-submit:hover {
-    background: #8cc2c4;
+    background: #a1dddf;
     color: #054752;
   }
   
@@ -700,19 +700,7 @@
   .open .input-icon.zmdi-plus:before {
     content: '\f273';
   }
-  
-  /* ==========================================================================
-     #SELECT2
-     ========================================================================== */
-  /* ==========================================================================
-     #TAB
-     ========================================================================== */
-  /* ==========================================================================
-     #TITLE
-     ========================================================================== */
-  /* ==========================================================================
-     #CARD
-     ========================================================================== */
+
   .card-6 {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -730,11 +718,11 @@
     bottom: 0;
     
 
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#054752), to( #8cc2c4));
-    background-image: -webkit-linear-gradient(bottom, #054752 0%, #8cc2c4 100%);
-    background-image: -moz-linear-gradient(bottom, #054752 0%, #8cc2c4 100%);
-    background-image: -o-linear-gradient(bottom, #054752 0%, #8cc2c4 100%);
-    background-image: linear-gradient(to top, #054752 0%, #8cc2c4 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#054752), to( #a1dddf));
+    background-image: -webkit-linear-gradient(bottom, #054752 0%, #a1dddf 100%);
+    background-image: -moz-linear-gradient(bottom, #054752 0%, #a1dddf 100%);
+    background-image: -o-linear-gradient(bottom, #054752 0%, #a1dddf 100%);
+    background-image: linear-gradient(to top, #054752 0%, #a1dddf 100%);
     opacity: 0.5;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -742,7 +730,7 @@
   }
   
   .card-6 .card-body {
-    padding: 60px 55px;
+    padding: 40px 55px;
   }
   
   @media (max-width: 767px) {

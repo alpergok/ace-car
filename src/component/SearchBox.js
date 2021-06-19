@@ -4,7 +4,7 @@ import '../css/Search.css';
 function Search() {
     return (
         <div>
-            <div className="page-wrapper bg-img-3 p-t-100 p-b-120">
+            <div className="page-wrapper p-t-100 p-b-120">
                 <div className="wrapper wrapper--w900">
                     <div className="card card-6">
                         <div className="card-body">
@@ -27,7 +27,7 @@ function Search() {
                                     <div className="col-2">
                                         <div className="input-group">
                                             <label className="label">Tarih</label>
-                                            <input className="input--style-1" type="text" name="depart" placeholder="GG/AA/YYYY" id="input-start" />
+                                            <input className="input--style-1" type="date" name="depart" placeholder="GG/AA/YYYY" id="input-start" />
 
                                         </div>
                                     </div>

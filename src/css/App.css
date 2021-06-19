@@ -25,6 +25,9 @@ nav{
   position: relative;
 }
 
+.nav-links .link:hover{
+  color: #a1dddf;
+}
 .link{
   font-size: larger;
   font-weight: 600;

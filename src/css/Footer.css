@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #8cc2c4;
+    color: #a1dddf;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -22,11 +22,17 @@ a, a:hover {
 }
 
 .footer-48201 {
-    padding-top: 4rem;
-    background-color: #8cc2c4;
+    padding-top: 3rem;
+    background-color: #a1dddf;
     color: #054752;
 }
 
+.text-md-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .footer-48201 .footer-site-logo {
     font-size: 1rem;
     color: #fff;
