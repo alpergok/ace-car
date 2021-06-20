@@ -15,7 +15,6 @@ const LoginForm = (props) => {
         AuthService.login({ email, password })
             .then(response => {
                 if (response.status === 200) {
-                    sessionStorage.setItem('isLogged', 'true');
                     props.setUser(email);
                     window.location = "/about";
                 }

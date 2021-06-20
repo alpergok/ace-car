@@ -1,7 +1,7 @@
 import { React, useState }from 'react';
 import Nav from '../common/Nav';
 import LoginForm from '../LoginForm.js';
-function LoginPage() {
+const LoginPage = (props) => {
   const [user, setUser] = useState('');
   return (
     <div>

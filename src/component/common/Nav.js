@@ -7,15 +7,14 @@ import '../../css/Nav.css';
 class Nav extends Component {
     constructor(props) {
         super(props);
-        this.state = { isLoggedIn: true };
+        this.state = { isLoggedIn: Boolean };
     }
     handleLogout = () => {
+        AuthService.logout();
         this.setState({
             isLoggedIn: AuthService.authCheck()
         });
-        console.log(this.state.isLoggedIn);
     }
-
 
     render() {
         return (
