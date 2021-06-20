@@ -67,13 +67,13 @@ function Footer() {
                         </div>
                         <div className="col-md text-md-center">
                             <ul className="social list-unstyled">
-                                <li><a href="https://instagram.com"><span className="fa fa-github"></span></a></li>
-                                <li><a href="twitter.com"><span className="fa fa-twitter-square"></span></a></li>
-                                <li><a href="facebook.com"><span className="fa fa-instagram"></span></a></li>
-                                <li><a href="pinterest.com"><span className="fa fa-facebook-square"></span></a></li>
-                                <li><a href="google.com"><span className="fa fa-google-plus-square"></span></a></li>
+                                <li><a href="https://github.com"><span className="fa fa-github"></span></a></li>
+                                <li><a href="https://twitter.com"><span className="fa fa-twitter-square"></span></a></li>
+                                <li><a href="https://facebook.com"><span className="fa fa-instagram"></span></a></li>
+                                <li><a href="https://facebook.com"><span className="fa fa-facebook-square"></span></a></li>
+                                <li><a href="https://google.com"><span className="fa fa-google-plus-square"></span></a></li>
                             </ul>
-                            <p className=""><a href="github.com" className="btn btn-tertiary">Bize Ulaşın</a></p>
+                            <p className=""><a href="https://github.com" className="btn btn-tertiary">Bize Ulaşın</a></p>
                         </div>
                     </div>
 

@@ -1,7 +1,10 @@
 import { React, useState } from 'react';
 import '../css/LoginForm.css';
-import { Link } from 'react-router-dom';
-function LoginForm() {
+import { Link, Redirect } from 'react-router-dom';
+import AuthService from '../service/AuthService';
+import Nav from './common/Nav';
+
+const LoginForm = (props) => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -9,14 +12,26 @@ function LoginForm() {
     const handleLoginClick = event => {
         event.preventDefault();
         console.log(email);
+        AuthService.login({ email, password })
+            .then(response => {
+                if (response.status === 200) {
+                    sessionStorage.setItem('isLogged', 'true');
+                    props.setUser(email);
+                    window.location = "/about";
+                }
+            }).catch(err => console.log(err));
     }
+
+    if (AuthService.authCheck === true)
+        return <Redirect to='/about' />
+
 
     return (
         <div>
             <div className="login-box">
                 <form className="email-login">
                     <div className="u-form-group email">
-                        <input value={password} type="email" placeholder="Email" onChange={e => setEmail(e.target.value)} />
+                        <input value={email} type="email" placeholder="Email" onChange={e => setEmail(e.target.value)} />
                     </div>
                     <div className="u-form-group password">
                         <input value={password} type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />

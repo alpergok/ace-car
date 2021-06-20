@@ -2,12 +2,10 @@ import React from 'react';
 import Nav from '../common/Nav';
 import Footer from '../common/Footer';
 import SearchBox from '../SearchBox';
-
 function Home() {
     return (
         <div>
             <div className="home-top-container">
-                <Nav />
                 <h1 className="header"> <strong>Aradığın yol arkadaşı sadece bir tık uzağında.</strong></h1>
                 <SearchBox />
             </div>

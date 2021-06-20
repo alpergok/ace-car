@@ -5,14 +5,16 @@ import HomePage from './component/pages/HomePage';
 import SignupPage from './component/pages/SignupPage';
 import SearchTripPage from './component/pages/SearchTripPage';
 import CreateTripPage from './component/pages/CreateTripPage';
+import Nav from './component/common/Nav';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
- 
+
   return (
     <Router>
       <div className="App">
-        <Switch>
+      <Nav />
+        <Switch>          
           <Route path="/" exact component={HomePage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/login" component={LoginPage} />
@@ -20,6 +22,7 @@ function App() {
           <Route path="/searchtrip" component={SearchTripPage} />
           <Route path="/createtrip" component={CreateTripPage} />
         </Switch>
+
       </div>
     </Router>
   );

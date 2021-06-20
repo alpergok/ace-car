@@ -1,16 +1,13 @@
-import React from 'react';
+import { React, useState }from 'react';
 import Nav from '../common/Nav';
-import Footer from '../common/Footer';
 import LoginForm from '../LoginForm.js';
-
 function LoginPage() {
-
+  const [user, setUser] = useState('');
   return (
     <div>
-      <Nav />
       <div className="Login" style={{marginBottom: "20px"}}>
         <h1 className="header"> <strong> AceCar'a giriş yap. </strong></h1>
-        <LoginForm />
+        <LoginForm setUser = { activeUser => setUser(activeUser)}/>
       </div>
     </div>
   );
